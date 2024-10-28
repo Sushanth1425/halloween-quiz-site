@@ -24,13 +24,16 @@ const Qns = () => {
   }
 
   return (
-    <div className='flex flex-wrap justify-between bg-orange-500 text-white'>
-      {routes.map((element) => (
-        <button key={element.route} className='border border-solid border-blue-800 bg-black p-20 m-10' onClick={()=>handleClick(element.route)}>
-          Qn {element.route}
-        </button>
-      ))}
+    <div className='min-h-screen bg-orange-500 flex flex-col'>
+      <div className='flex flex-wrap justify-between text-white'>
+        {routes.map((element) => (
+          <button key={element.route} className='border border-solid border-blue-800 bg-black p-20 m-10' onClick={()=>handleClick(element.route)}>
+            Qn {element.route}
+          </button>
+        ))}
+      </div>
     </div>
+      
   )
 }
 
