@@ -9,7 +9,7 @@ const cards = [
   { id: 4, title: "What's a ghost's favorite exercise?", answer: 'deadlifts', route: '/q4' },
   { id: 5, title: "What's something vampires can't see, but everyone else can?", answer: 'reflection', route: '/q5' },
   { id: 6, title: "What does a witch use in place of a GPS?", answer: 'broom', route: '/q6' },
-  { id: 7, title: 'What did the ghost say when it won the talent show?', answer: 'iamfaboolous', route: '/q7' },
+  { id: 7, title: 'What did the ghost say when it won the talent show?', answer: 'faboolous', route: '/q7' },
   { id: 8, title: "What's a ghost's favorite ride at the amusement park?", answer: 'rollerghoster', route: '/q8' },
   { id: 9, title: 'What do you call a fat pumpkin?', answer: 'plumpkin', route: '/q9' },
   { id: 10, title: 'What do you call two witches living together?', answer: 'broommates', route: '/q10' }
@@ -24,7 +24,7 @@ const Qn = () => {
 
   const check = (e) => {
     e.preventDefault(); 
-    if (answer.trim().toLowerCase() === question.answer) {
+    if (answer.trim().toLowerCase().replace(/\s+/g, '') === question.answer) {
       alert("Right answer!!");
     } else {
       alert("OOPS, YOU LOST :(");
