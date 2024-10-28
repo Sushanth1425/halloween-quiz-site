@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9bf3dd6.css",
-    "main.js": "/static/js/main.1d6ad8b4.js",
-    "index.html": "/index.html",
-    "main.c9bf3dd6.css.map": "/static/css/main.c9bf3dd6.css.map",
-    "main.1d6ad8b4.js.map": "/static/js/main.1d6ad8b4.js.map"
+    "main.css": "/halloween-quiz-site/static/css/main.c9bf3dd6.css",
+    "main.js": "/halloween-quiz-site/static/js/main.1d6ad8b4.js",
+    "index.html": "/halloween-quiz-site/index.html",
+    "main.c9bf3dd6.css.map": "/halloween-quiz-site/static/css/main.c9bf3dd6.css.map",
+    "main.1d6ad8b4.js.map": "/halloween-quiz-site/static/js/main.1d6ad8b4.js.map"
   },
   "entrypoints": [
     "static/css/main.c9bf3dd6.css",
