@@ -30,7 +30,7 @@ const Qn = () => {
       alert("OOPS, YOU LOST :(");
     }
     setTimeout(() => {
-      navigate('/qns'); 
+      navigate('/'); 
     }, 500);
   };
 
